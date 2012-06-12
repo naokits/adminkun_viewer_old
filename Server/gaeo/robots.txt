@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /get
+Disallow: /current_number
+Disallow: /fetch_adminkun_from_atmarkit
+Disallow: /fetch_mradmin_from_atmarkit
+Disallow: /number_of_adminkun

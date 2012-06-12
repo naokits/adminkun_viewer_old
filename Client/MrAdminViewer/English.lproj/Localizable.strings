@@ -1,0 +1,58 @@
+﻿/* 旧着順 */
+"Ascend" = "Ascend";
+
+/* 連載一覧 */
+"Comic List" = "Comic List";
+
+/* 新着順 */
+"Descend" = "Descend";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* アドミンくんビューワについて */
+"About Mr.Admin Viewer" = "About Mr.Admin Viewer";
+
+/* 旧着順 */
+"Ascend" = "Ascend";
+
+/* キャンセル */
+"Cancel" = "Cancel";
+
+/* 連載一覧 */
+"Comic List" = "Comic List";
+
+/* インターネットが利用できません */
+"No Internet connection" = "No Internet connection";
+
+/* 新着順 */
+"Descend" = "Descend";
+
+/* アドミンくんビューワ */
+"Mr.Admin Viewer" = "Mr.Admin Viewer";
+
+/* OK */
+"OK" = "OK";
+
+/* メール送信をキャンセルしました。 */
+"Result: canceled" = "Result: canceled";
+
+/* メール送信が失敗しました。インターネット環境をご確認後、再度お送りください。 */
+"Result: failed" = "Result: failed";
+
+/* メールが送信されませんでした。 */
+"Result: not sent" = "Result: not sent";
+
+/* メールを保存しました。 */
+"Result: saved" = "Result: saved";
+
+/* メールが送信されました。 */
+"Result: sent" = "Result: sent";
+
+/* Safariを起動します。\nよろしいですか？ */
+"This will open Safari.\nSure?" = "This will open Safari.\nSure?";
+
+/* 読み込み中... */
+"Loading..." = "Loading...";
+
+

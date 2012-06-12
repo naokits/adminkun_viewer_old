@@ -1,0 +1,92 @@
+{% extends "../support_base.html" %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+<div id="topbar">
+	<div id="leftbutton">
+    <a class="noeffect" href="http://www.itunes.com/app/Adminkun">AppStoreへ</a>
+  </div>
+  
+ 	<div id="rightnav">
+    <a href="/support/whatsnew">最新情報</a>
+  </div>
+	<div id="title"></div>
+</div>
+
+<div id="content">
+	<ul class="pageitem">
+		<li class="textbox">
+      <center><img alt="changelog" src="/pictures/adminkun.png" />
+      <span class="header">Adminkun Viewer Support Site</span></center>
+      <p>
+        <font size="2">
+          当サイトは「アドミンくんビューワ」のサポートサイトです。iPhone/iPodTouchまたはPCのSafariブラウザでご覧ください。<br>
+          English version <a href="/support_en/">here</a>.
+        </font>
+      </p>
+		</li>
+    
+		<li class="menu">
+      <a href="/support/whatsnew">
+        <span class="name">最新情報</span>
+        <span class="arrow"></span>
+      </a>
+    </li>
+
+		<li class="menu">
+      <a href="/support/about">
+        <span class="name">本アプリについて</span>
+        <span class="arrow"></span>
+      </a>
+    </li>
+
+		<li class="menu">
+      <a href="/support/schedule">
+        <span class="name">今後の予定</span>
+        <span class="arrow"></span>
+      </a>
+    </li>
+
+		<li class="menu">
+      <a href="/support/screenshots">
+        <span class="name">スクリーンショット</span>
+        <span class="arrow"></span>
+      </a>
+    </li>
+
+<!-- 今後入れるか検討する
+		<li class="menu">
+      <a href="recommend_app.html">
+        <span class="name">おすすめアプリ</span>
+        <span class="arrow"></span>
+      </a>
+    </li>
+-->
+	</ul>
+
+	<span class="graytitle">関連リンク</span>
+  <ul class="pageitem">
+		<li class="menu">
+      <a href="http://www.atmarkit.co.jp/fwin2k/itpropower/admin-kun/index/">
+        <span class="name">がんばれ！ アドミンくん</span>
+        <span class="arrow"></span>
+      </a>
+    </li>
+
+		<li class="menu">
+      <a href="http://corp.itmedia.co.jp/corp/information/">
+        <span class="name">アイティメディア</span>
+        <span class="arrow"></span>
+      </a>
+    </li>
+    
+		<li class="menu">
+      <a href="http://www.d-advantage.jp/">
+        <span class="name">デジタルアドバンテージ</span>
+        <span class="arrow"></span>
+      </a>
+    </li>
+	</ul>
+</div>
+{% endblock %}

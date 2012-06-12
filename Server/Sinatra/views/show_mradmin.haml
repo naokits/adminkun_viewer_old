@@ -1,0 +1,34 @@
+
+//== Message = #{@message}
+
+
+%table{:width => "310", :border => "0"}
+  %tr
+    %td
+      %img{:src => "http://www.atmarkit.co.jp/fwin2k/itpropower/admin-kun-en/index/title.gif"}
+  %tr
+    %td{:align => "right"}
+      %font{:size => "2"}
+        %strong
+          STORY:Digital Advantage
+          %br/
+          DRAWING:
+          %a{:href => "http://www7a.biglobe.ne.jp/%7Etamamushiya/", :target => "_balnk"} CHAMARU
+          %br/
+          TRANSLATION: Jeff Gedert
+
+  %tr
+    %td{:align => "left"}
+      %font{:size => "2"}
+        = @overview
+        
+  %tr
+    %td{:align => "center"}
+      %img{:src => "#{@comic_image}"}
+      
+
+
+%p
+  %a{:href => "http://localhost:3000/show_adminkun/#{@number}"} Japanese edition
+  
+  

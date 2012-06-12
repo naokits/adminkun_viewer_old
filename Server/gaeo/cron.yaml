@@ -1,0 +1,4 @@
+cron:
+- description: fetch from @IT
+  url: /fetch_adminkun_from_atmarkit
+  schedule: every 6 hours

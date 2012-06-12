@@ -1,0 +1,36 @@
+
+%p
+  == Object Size = #{@object_array.size}
+  %br/
+  == Table Size = #{@table_size}
+  %br/
+  == Message = #{@message}
+  
+%p
+  = @object_array[175].index_title
+  
+%p
+  - @diff_count = @object_array.size - @table_size
+  = @diff_count
+%hr
+
+%p
+  - @object_array.each do |i|
+    %img{:src => "#{i.index_image_url}"}
+    = i.index_title
+    %br/
+    = i.index_overview
+    %br/
+    %img
+      %src
+        = i.index_image_url
+    %br/
+    = i.body_url
+    %br/
+    %br/
+
+//<img src="http://www.atmarkit.co.jp/fwin2k/itpropower/admin-kun/176/admin176_s.gif ">
+
+%p
+%img{:src => 'http://www.atmarkit.co.jp/fwin2k/itpropower/admin-kun/176/admin176_s.gif'}
+

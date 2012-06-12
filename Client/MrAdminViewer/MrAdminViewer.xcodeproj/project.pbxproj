@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1215F4B8107CBACD00B5FE0B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1215F4B7107CBACD00B5FE0B /* Localizable.strings */; };
+		1215F4FC107CC49200B5FE0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1215F4FB107CC49200B5FE0B /* InfoPlist.strings */; };
+		121B0D271068B6C50051412A /* MailComposerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 121B0D251068B6C50051412A /* MailComposerViewController.xib */; };
+		121B0DB91068BFBB0051412A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121B0DB81068BFBB0051412A /* MessageUI.framework */; };
+		121C8F061079A7660026ED10 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		121C8F5E1079B50D0026ED10 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 121C8F5D1079B50D0026ED10 /* AboutViewController.xib */; };
+		123A73F51056F582002D98EB /* MrAdminViewer.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 123A73F41056F582002D98EB /* MrAdminViewer.sqlite */; };
+		123AE6C5102139EB00A5BC1C /* Base64EncDec.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6A8102139EB00A5BC1C /* Base64EncDec.m */; };
+		123AE6C6102139EB00A5BC1C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6AA102139EB00A5BC1C /* DetailViewController.m */; };
+		123AE6C7102139EB00A5BC1C /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6AF102139EB00A5BC1C /* NSObject+SBJSON.m */; };
+		123AE6C8102139EB00A5BC1C /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6B1102139EB00A5BC1C /* NSString+SBJSON.m */; };
+		123AE6C9102139EB00A5BC1C /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6B3102139EB00A5BC1C /* SBJSON.m */; };
+		123AE6CA102139EB00A5BC1C /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6B5102139EB00A5BC1C /* SBJsonBase.m */; };
+		123AE6CB102139EB00A5BC1C /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6B7102139EB00A5BC1C /* SBJsonParser.m */; };
+		123AE6CC102139EB00A5BC1C /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6B9102139EB00A5BC1C /* SBJsonWriter.m */; };
+		123AE6CD102139EB00A5BC1C /* MrAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6BB102139EB00A5BC1C /* MrAdmin.m */; };
+		123AE6CE102139EB00A5BC1C /* MrAdminController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6BD102139EB00A5BC1C /* MrAdminController.m */; };
+		123AE6CF102139EB00A5BC1C /* MrAdminViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6BF102139EB00A5BC1C /* MrAdminViewerAppDelegate.m */; };
+		123AE6D0102139EB00A5BC1C /* NKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6C2102139EB00A5BC1C /* NKTools.m */; };
+		123AE6D1102139EB00A5BC1C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123AE6C4102139EB00A5BC1C /* RootViewController.m */; };
+		126241AC10908932000A19B5 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126241AB10908932000A19B5 /* Entitlements.plist */; };
+		1283E2E91027EE3500FC87D0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1283E2E81027EE3500FC87D0 /* Reachability.m */; };
+		1283E2FB1027EEF000FC87D0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283E2FA1027EEF000FC87D0 /* SystemConfiguration.framework */; };
+		128F80B011213FC800BF48B4 /* arrow_full_down_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 128F80AF11213FC800BF48B4 /* arrow_full_down_32.png */; };
+		128F80B21121401B00BF48B4 /* arrow_sans_up_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 128F80B11121401B00BF48B4 /* arrow_sans_up_32.png */; };
+		128F80B41121403500BF48B4 /* arrow_sans_down_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 128F80B31121403500BF48B4 /* arrow_sans_down_32.png */; };
+		128FE8321028578100EFC078 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 128FE8311028578100EFC078 /* Default.png */; };
+		12996FA81067AEB300E529B6 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12996FA61067AEB300E529B6 /* AboutViewController.m */; };
+		129D99021020799D0098C17A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 129D99011020799D0098C17A /* icon.png */; };
+		12A55C7E10198D87006EAAB7 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A55C7C10198D87006EAAB7 /* DetailViewController.xib */; };
+		12A741091063A0A9007BCDF8 /* AdminkunCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A741081063A0A9007BCDF8 /* AdminkunCell.m */; };
+		12A7410B1063A0E8007BCDF8 /* AdminkunCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A7410A1063A0E8007BCDF8 /* AdminkunCell.xib */; };
+		12BD239B1091DB7200F34092 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 12BD239A1091DB7200F34092 /* icon2.png */; };
+		12BFC13F1031E4D2001DC6B0 /* WaitingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFC13E1031E4D2001DC6B0 /* WaitingIndicator.m */; };
+		12F9BF5B10199F0800E89188 /* adminkun.html in Resources */ = {isa = PBXBuildFile; fileRef = 12F9BF5A10199F0800E89188 /* adminkun.html */; };
+		12F9C7E610208BAF00A22DAB /* title_base64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 12F9C7E510208BAF00A22DAB /* title_base64.txt */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28860B770F44E54D00985440 /* MrAdminViewer.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28860B760F44E54D00985440 /* MrAdminViewer.xcdatamodel */; };
+		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1215F4B9107CBAEC00B5FE0B /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1215F4EB107CC45100B5FE0B /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1215F4FD107CC49B00B5FE0B /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		121B0D251068B6C50051412A /* MailComposerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MailComposerViewController.xib; path = Classes/MailComposerViewController.xib; sourceTree = "<group>"; };
+		121B0DB81068BFBB0051412A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		121C8F001079A5E80026ED10 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		121C8F5F1079B5180026ED10 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/AboutViewController.xib; sourceTree = "<group>"; };
+		123A73F41056F582002D98EB /* MrAdminViewer.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MrAdminViewer.sqlite; sourceTree = "<group>"; };
+		123AE6A7102139EB00A5BC1C /* Base64EncDec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64EncDec.h; sourceTree = "<group>"; };
+		123AE6A8102139EB00A5BC1C /* Base64EncDec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64EncDec.m; sourceTree = "<group>"; };
+		123AE6A9102139EB00A5BC1C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		123AE6AA102139EB00A5BC1C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		123AE6AB102139EB00A5BC1C /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		123AE6AD102139EB00A5BC1C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		123AE6AE102139EB00A5BC1C /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		123AE6AF102139EB00A5BC1C /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		123AE6B0102139EB00A5BC1C /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		123AE6B1102139EB00A5BC1C /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		123AE6B2102139EB00A5BC1C /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		123AE6B3102139EB00A5BC1C /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		123AE6B4102139EB00A5BC1C /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		123AE6B5102139EB00A5BC1C /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		123AE6B6102139EB00A5BC1C /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		123AE6B7102139EB00A5BC1C /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		123AE6B8102139EB00A5BC1C /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		123AE6B9102139EB00A5BC1C /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		123AE6BA102139EB00A5BC1C /* MrAdmin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MrAdmin.h; sourceTree = "<group>"; };
+		123AE6BB102139EB00A5BC1C /* MrAdmin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MrAdmin.m; sourceTree = "<group>"; };
+		123AE6BC102139EB00A5BC1C /* MrAdminController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MrAdminController.h; sourceTree = "<group>"; };
+		123AE6BD102139EB00A5BC1C /* MrAdminController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MrAdminController.m; sourceTree = "<group>"; };
+		123AE6BE102139EB00A5BC1C /* MrAdminViewerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MrAdminViewerAppDelegate.h; sourceTree = "<group>"; };
+		123AE6BF102139EB00A5BC1C /* MrAdminViewerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MrAdminViewerAppDelegate.m; sourceTree = "<group>"; };
+		123AE6C0102139EB00A5BC1C /* NKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDefines.h; sourceTree = "<group>"; };
+		123AE6C1102139EB00A5BC1C /* NKTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTools.h; sourceTree = "<group>"; };
+		123AE6C2102139EB00A5BC1C /* NKTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTools.m; sourceTree = "<group>"; };
+		123AE6C3102139EB00A5BC1C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		123AE6C4102139EB00A5BC1C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		126241AB10908932000A19B5 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		1283E2E71027EE3500FC87D0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1283E2E81027EE3500FC87D0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1283E2FA1027EEF000FC87D0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		128F80AF11213FC800BF48B4 /* arrow_full_down_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_full_down_32.png; sourceTree = "<group>"; };
+		128F80B11121401B00BF48B4 /* arrow_sans_up_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_sans_up_32.png; sourceTree = "<group>"; };
+		128F80B31121403500BF48B4 /* arrow_sans_down_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_sans_down_32.png; sourceTree = "<group>"; };
+		128FE8311028578100EFC078 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		12996FA51067AEB300E529B6 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		12996FA61067AEB300E529B6 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		129D99011020799D0098C17A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		12A55C7C10198D87006EAAB7 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		12A741071063A0A9007BCDF8 /* AdminkunCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminkunCell.h; sourceTree = "<group>"; };
+		12A741081063A0A9007BCDF8 /* AdminkunCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminkunCell.m; sourceTree = "<group>"; };
+		12A7410A1063A0E8007BCDF8 /* AdminkunCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminkunCell.xib; sourceTree = "<group>"; };
+		12AC57B210763BEB00AFE733 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/AboutViewController.xib; sourceTree = "<group>"; };
+		12BD239A1091DB7200F34092 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		12BFC13D1031E4D2001DC6B0 /* WaitingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingIndicator.h; sourceTree = "<group>"; };
+		12BFC13E1031E4D2001DC6B0 /* WaitingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingIndicator.m; sourceTree = "<group>"; };
+		12F9BF5A10199F0800E89188 /* adminkun.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = adminkun.html; sourceTree = "<group>"; };
+		12F9C7E510208BAF00A22DAB /* title_base64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = title_base64.txt; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Adminkun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adminkun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28860B760F44E54D00985440 /* MrAdminViewer.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = MrAdminViewer.xcdatamodel; sourceTree = "<group>"; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* MrAdminViewer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MrAdminViewer_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+				1283E2FB1027EEF000FC87D0 /* SystemConfiguration.framework in Frameworks */,
+				121B0DB91068BFBB0051412A /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123AE6A6102139EB00A5BC1C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				123AE6AB102139EB00A5BC1C /* GTMDefines.h */,
+				123AE6C0102139EB00A5BC1C /* NKDefines.h */,
+				123AE6C1102139EB00A5BC1C /* NKTools.h */,
+				123AE6C2102139EB00A5BC1C /* NKTools.m */,
+				12A741071063A0A9007BCDF8 /* AdminkunCell.h */,
+				12A741081063A0A9007BCDF8 /* AdminkunCell.m */,
+				1283E2E71027EE3500FC87D0 /* Reachability.h */,
+				1283E2E81027EE3500FC87D0 /* Reachability.m */,
+				123AE6A7102139EB00A5BC1C /* Base64EncDec.h */,
+				123AE6A8102139EB00A5BC1C /* Base64EncDec.m */,
+				123AE6A9102139EB00A5BC1C /* DetailViewController.h */,
+				123AE6AA102139EB00A5BC1C /* DetailViewController.m */,
+				123AE6AC102139EB00A5BC1C /* JSON */,
+				123AE6BA102139EB00A5BC1C /* MrAdmin.h */,
+				123AE6BB102139EB00A5BC1C /* MrAdmin.m */,
+				123AE6BC102139EB00A5BC1C /* MrAdminController.h */,
+				123AE6BD102139EB00A5BC1C /* MrAdminController.m */,
+				123AE6BE102139EB00A5BC1C /* MrAdminViewerAppDelegate.h */,
+				123AE6BF102139EB00A5BC1C /* MrAdminViewerAppDelegate.m */,
+				123AE6C3102139EB00A5BC1C /* RootViewController.h */,
+				123AE6C4102139EB00A5BC1C /* RootViewController.m */,
+				12BFC13D1031E4D2001DC6B0 /* WaitingIndicator.h */,
+				12BFC13E1031E4D2001DC6B0 /* WaitingIndicator.m */,
+				12996FA51067AEB300E529B6 /* AboutViewController.h */,
+				12996FA61067AEB300E529B6 /* AboutViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		123AE6AC102139EB00A5BC1C /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				123AE6AD102139EB00A5BC1C /* JSON.h */,
+				123AE6AE102139EB00A5BC1C /* NSObject+SBJSON.h */,
+				123AE6AF102139EB00A5BC1C /* NSObject+SBJSON.m */,
+				123AE6B0102139EB00A5BC1C /* NSString+SBJSON.h */,
+				123AE6B1102139EB00A5BC1C /* NSString+SBJSON.m */,
+				123AE6B2102139EB00A5BC1C /* SBJSON.h */,
+				123AE6B3102139EB00A5BC1C /* SBJSON.m */,
+				123AE6B4102139EB00A5BC1C /* SBJsonBase.h */,
+				123AE6B5102139EB00A5BC1C /* SBJsonBase.m */,
+				123AE6B6102139EB00A5BC1C /* SBJsonParser.h */,
+				123AE6B7102139EB00A5BC1C /* SBJsonParser.m */,
+				123AE6B8102139EB00A5BC1C /* SBJsonWriter.h */,
+				123AE6B9102139EB00A5BC1C /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Adminkun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				123AE6A6102139EB00A5BC1C /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* MrAdminViewer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				128F80B31121403500BF48B4 /* arrow_sans_down_32.png */,
+				128F80B11121401B00BF48B4 /* arrow_sans_up_32.png */,
+				128F80AF11213FC800BF48B4 /* arrow_full_down_32.png */,
+				12BD239A1091DB7200F34092 /* icon2.png */,
+				126241AB10908932000A19B5 /* Entitlements.plist */,
+				1215F4B7107CBACD00B5FE0B /* Localizable.strings */,
+				121C8F5D1079B50D0026ED10 /* AboutViewController.xib */,
+				121B0D251068B6C50051412A /* MailComposerViewController.xib */,
+				12A7410A1063A0E8007BCDF8 /* AdminkunCell.xib */,
+				123A73F41056F582002D98EB /* MrAdminViewer.sqlite */,
+				128FE8311028578100EFC078 /* Default.png */,
+				12F9C7E510208BAF00A22DAB /* title_base64.txt */,
+				12F9BF5A10199F0800E89188 /* adminkun.html */,
+				129D99011020799D0098C17A /* icon.png */,
+				12A55C7C10198D87006EAAB7 /* DetailViewController.xib */,
+				28860B760F44E54D00985440 /* MrAdminViewer.xcdatamodel */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* info.plist */,
+				1215F4FB107CC49200B5FE0B /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				121B0DB81068BFBB0051412A /* MessageUI.framework */,
+				1283E2FA1027EEF000FC87D0 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Adminkun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Adminkun" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adminkun;
+			productName = MrAdminViewer;
+			productReference = 1D6058910D05DD3D006BFB54 /* Adminkun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MrAdminViewer" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Adminkun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121C8F061079A7660026ED10 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				12A55C7E10198D87006EAAB7 /* DetailViewController.xib in Resources */,
+				12F9BF5B10199F0800E89188 /* adminkun.html in Resources */,
+				129D99021020799D0098C17A /* icon.png in Resources */,
+				12F9C7E610208BAF00A22DAB /* title_base64.txt in Resources */,
+				128FE8321028578100EFC078 /* Default.png in Resources */,
+				123A73F51056F582002D98EB /* MrAdminViewer.sqlite in Resources */,
+				12A7410B1063A0E8007BCDF8 /* AdminkunCell.xib in Resources */,
+				121B0D271068B6C50051412A /* MailComposerViewController.xib in Resources */,
+				121C8F5E1079B50D0026ED10 /* AboutViewController.xib in Resources */,
+				1215F4B8107CBACD00B5FE0B /* Localizable.strings in Resources */,
+				1215F4FC107CC49200B5FE0B /* InfoPlist.strings in Resources */,
+				126241AC10908932000A19B5 /* Entitlements.plist in Resources */,
+				12BD239B1091DB7200F34092 /* icon2.png in Resources */,
+				128F80B011213FC800BF48B4 /* arrow_full_down_32.png in Resources */,
+				128F80B21121401B00BF48B4 /* arrow_sans_up_32.png in Resources */,
+				128F80B41121403500BF48B4 /* arrow_sans_down_32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				28860B770F44E54D00985440 /* MrAdminViewer.xcdatamodel in Sources */,
+				123AE6C5102139EB00A5BC1C /* Base64EncDec.m in Sources */,
+				123AE6C6102139EB00A5BC1C /* DetailViewController.m in Sources */,
+				123AE6C7102139EB00A5BC1C /* NSObject+SBJSON.m in Sources */,
+				123AE6C8102139EB00A5BC1C /* NSString+SBJSON.m in Sources */,
+				123AE6C9102139EB00A5BC1C /* SBJSON.m in Sources */,
+				123AE6CA102139EB00A5BC1C /* SBJsonBase.m in Sources */,
+				123AE6CB102139EB00A5BC1C /* SBJsonParser.m in Sources */,
+				123AE6CC102139EB00A5BC1C /* SBJsonWriter.m in Sources */,
+				123AE6CD102139EB00A5BC1C /* MrAdmin.m in Sources */,
+				123AE6CE102139EB00A5BC1C /* MrAdminController.m in Sources */,
+				123AE6CF102139EB00A5BC1C /* MrAdminViewerAppDelegate.m in Sources */,
+				123AE6D0102139EB00A5BC1C /* NKTools.m in Sources */,
+				123AE6D1102139EB00A5BC1C /* RootViewController.m in Sources */,
+				1283E2E91027EE3500FC87D0 /* Reachability.m in Sources */,
+				12BFC13F1031E4D2001DC6B0 /* WaitingIndicator.m in Sources */,
+				12A741091063A0A9007BCDF8 /* AdminkunCell.m in Sources */,
+				12996FA81067AEB300E529B6 /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1215F4B7107CBACD00B5FE0B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				121C8F001079A5E80026ED10 /* English */,
+				1215F4B9107CBAEC00B5FE0B /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1215F4FB107CC49200B5FE0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1215F4EB107CC45100B5FE0B /* English */,
+				1215F4FD107CC49B00B5FE0B /* Japanese */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		121C8F5D1079B50D0026ED10 /* AboutViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AC57B210763BEB00AFE733 /* English */,
+				121C8F5F1079B5180026ED10 /* Japanese */,
+			);
+			name = AboutViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12A237AA108E193500C32435 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Naoki Tsutsui";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = info.plist;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "972C0682-1103-4914-BFA5-195229E87D44";
+				SDKROOT = iphoneos3.0;
+			};
+			name = AdHoc;
+		};
+		12A237AB108E193500C32435 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MrAdminViewer_Prefix.pch;
+				INFOPLIST_FILE = info.plist;
+				PRODUCT_NAME = Adminkun;
+			};
+			name = AdHoc;
+		};
+		12F24B731079CEC80072535A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Naoki Tsutsui";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = info.plist;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "01B30520-534A-470D-96BF-9A9D61B85DEF";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribution;
+		};
+		12F24B741079CEC80072535A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MrAdminViewer_Prefix.pch;
+				INFOPLIST_FILE = info.plist;
+				PRODUCT_NAME = Adminkun;
+			};
+			name = Distribution;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MrAdminViewer_Prefix.pch;
+				INFOPLIST_FILE = info.plist;
+				PRODUCT_NAME = Adminkun;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MrAdminViewer_Prefix.pch;
+				INFOPLIST_FILE = info.plist;
+				PRODUCT_NAME = Adminkun;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Naoki Tsutsui (8GQAU2Q4WK)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "28E5E824-602C-44FB-AC69-8978883DB090";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Naoki Tsutsui (8GQAU2Q4WK)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "579F4562-4DF7-475D-8378-D8E72D775293";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Adminkun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				12F24B741079CEC80072535A /* Distribution */,
+				12A237AB108E193500C32435 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MrAdminViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				12F24B731079CEC80072535A /* Distribution */,
+				12A237AA108E193500C32435 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

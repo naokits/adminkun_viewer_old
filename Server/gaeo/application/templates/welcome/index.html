@@ -1,0 +1,45 @@
+{% extends "../base.html" %}
+
+{% block title %}GAEO Book{% endblock %}
+
+{% block content %}
+        <h1>It works!!</h1>
+        <br />
+        <!-- this page is related to controller/welcome.py -->
+
+  <form method="post" action="/speak">
+    <fieldset>
+      <legend>Leave a message</legend>
+      <p>
+        <label>Name:</label><br>
+        <input type="text" name="username" size="20">
+      </p>
+      <p>
+        <label>Message:</label><br>
+        <textarea name="message" rows="5" cols="40"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Post">
+      </p>
+    </fieldset>
+  </form>
+
+
+  <div id="messages">
+    {% if msgs %}
+    <ul>
+      {% for msg in msgs %}
+      <li>
+        <h3>{{ msg.username }}:</h3>
+        <p>{{ msg.content }}</p>
+        <hr>
+        <p style="text-align:right;"><small>At {{ msg.post_at|date }}</small></p>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <h1>メッセージはありません</h1>
+    {% endif %}
+  </div>
+  
+{% endblock %}

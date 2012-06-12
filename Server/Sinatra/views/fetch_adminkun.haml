@@ -1,0 +1,24 @@
+Adminkun
+%p
+  == lastno:#{@lastno} object_size:#{@object_array.size} table_size:#{@table_size}
+  %br/
+  == #{@message}
+
+%hr
+
+%p
+  - @object_array.each do |i|
+    %img{:src => "#{i.index_image_url}"}
+    = i.index_title
+    %br/
+    = i.index_overview
+    %br/
+    = i.index_image_url
+    %br/
+    = i.body_url
+    %br/
+    %br/
+
+%p
+
+

@@ -1,0 +1,28 @@
+
+//== Message = #{@message}
+
+
+%table{:width => "310", :border => "0"}
+  %tr
+    %td
+      %img{:src => "http://www.atmarkit.co.jp/fwin2k/itpropower/admin-kun/index/title.gif"}
+      
+  %tr
+    %td{:align => "right"}
+      %font{:size => "2"}
+        %strong
+          構成：デジタルアドバンテージ
+          %br/
+          画：
+          %a{:href => "http://www7a.biglobe.ne.jp/%7Etamamushiya/", :target => "_balnk"} 正木茶丸
+
+  %tr
+    %td{:align => "left"}
+      %font{:size => "2"}
+        = @overview
+        
+  %tr
+    %td{:align => "center"}
+      %img{:src => "#{@comic_image}"}
+      
+      

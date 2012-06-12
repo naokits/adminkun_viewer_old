@@ -1,0 +1,45 @@
+{% extends "../support_base.html" %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+<div id="topbar">
+	<div id="leftnav">
+		<a href="/support/index"><img alt="home" src="/images/home.png" /></a>
+    <a href="/support/about">本アプリについて</a>
+  </div>
+   	<div id="rightnav">
+    <a href="/support/screenshots">スクリーンショット</a>
+  </div>
+	<div id="title"></div>
+</div>
+<div id="content">
+	<span class="graytitle">追加予定の機能<br>
+    <br>
+  </span>
+  
+ 	<ul class="pageitem">
+ 		<li class="textbox">
+     <span class="header"></span>
+   <font size="-1">
+   追加の機能については、ユーザの皆様のご要望を伺いながら、最も必要とされる機能から順次追加していきたいと思います。
+   作者としましては、次の機能追加を検討しています。</font><br>
+		</li>
+  </ul>
+
+  
+  
+	<ul class="pageitem">
+		<li class="textbox">
+		<ul>
+      <li>記事詳細画面内から、記事の移動（前後）を可能にする</li>
+      <li>記事一覧で未読の記事にはマークを表示する</li>
+			<li>新着記事のプッシュ通知</li>
+      <li>お気に入りの記事（or しおり）</li>
+      <li>英語版の閲覧</li>
+		</ul>
+		</li>
+	</ul>
+  
+</div>
+{% endblock %}

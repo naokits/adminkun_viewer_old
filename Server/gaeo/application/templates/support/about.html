@@ -1,0 +1,97 @@
+{% extends "../support_base.html" %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+
+<div id="topbar">
+	<div id="leftnav">
+		<a href="/support/index"><img alt="home" src="/images/home.png" /></a>
+    <a href="/support/whatsnew">最新情報</a>
+  </div>
+ 	<div id="rightnav">
+    <a href="/support/schedule">今後の予定</a>
+  </div>
+
+	<div id="title"></div>
+</div> <!-- end topbar -->
+
+<div id="content">
+ <br>
+	<span class="graytitle">アドミンくんビューワについて</span>
+	<ul class="pageitem">
+		<li class="textbox">
+                  アドミンくんビューワは、@ITの提供する「がんばれ！アドミンくん」のコンテンツを手軽に閲覧できるシンプルな専用ビューワです。
+		</li>
+	</ul>
+
+	<span class="graytitle">主な特徴</span>
+	<ul class="pageitem">
+		<li class="textbox">
+		<ul>
+			<li>アプリを起動したら、連載の一覧から読みたいものを選択するだけのスーパーシンプルなユーザインターフェース。</li>
+			<li>新着チェックを起動時に自動的に行います。（毎週火曜日の予定）</li>
+      <li>一度ダウンロードしたコミックは、内蔵のデータベースに保存されますので、インターネットが使用できない場所でも、再度お楽しみいただけます。</li>
+      <li>コミック（画像）は連載一覧からお好みの記事をタップした時に、ダウンロードされます。</li>
+      <li>連載一覧で新着順、旧着順が指定できます。</li>
+		</ul>
+		</li>
+	</ul>
+
+	<span class="graytitle">本アプリ使用上の注意点など</span>
+	<ul class="pageitem">
+		<li class="textbox">
+		<ul>
+			<li>記事の詳細ページから連載一覧に戻った時に、一覧の先頭に戻る場合がありますが、連載一覧がメモリに読み込まれた後は連載一覧の表示位置を記憶するようになります。</li>
+			<li>起動直後に連載一覧をスクロールさせると、ぎこちない動きをする場合がありますが、上記同様に連載一覧がメモリに読み込まれると、スムーズな動作になります。</li>
+      <li>使用できるメモリが少ない場合、本アプリはできるだけメモリを解放しますので、上記の症状が出る場合があります。</li>
+		</ul>
+		</li>
+	</ul>
+
+	<span class="graytitle">著作権について</span>
+	<ul class="pageitem">
+		<li class="textbox">
+		<ul>
+			<li>本アプリの著作権は作者に帰属します。</li>
+			<li>本アプリが表示する「がんばれ！アドミンくん」に関連するコンテンツの著作権は、株式会社デジタルアドバンテージに帰属します。</li>
+      <li>本アプリは、コンテンツ利用の許可を得て制作しております。</li>
+		</ul>
+		</li>
+	</ul>
+
+	<span class="graytitle">注意事項</span>
+	<ul class="pageitem">
+		<li class="textbox">
+    本アプリの動作に関する責任は全て作者にあります。コンテンツ提供元のアイティメディア株式会社、株式会社デジタルアドバンテージには一切関係ございませんので、本アプリに関する連絡は、全て作者にお願いします。<br>
+    <br>
+    なお、作者への連絡はアプリ内からお願いします。（アプリ内からメール送信する機能があります）
+		</li>
+	</ul>
+  
+	<span class="graytitle">動作環境</span>
+	<ul class="pageitem">
+		<li class="textbox">
+      OS: iPhoneOS 3.0以上<br>
+      言語：日本語のみ<br>
+      対応機種：全てのiPhone、全てのiPodTouch
+		</li>
+	</ul>
+
+ 	<span class="graytitle">作者情報</span><ul class="pageitem">
+   <!--
+	<li class="textbox">
+	<p>Here are some example&#39;s of things you can achieve building with iWebKit 4:</p>
+	</li>
+   -->
+    
+	<li class="menu">
+     <a href="about_author">
+       <span class="name">作者について</span>
+       <span class="arrow"></span>
+     </a>
+   </li>
+
+</div>  <!-- end content -->
+
+{% endblock %}
